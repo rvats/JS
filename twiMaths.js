@@ -5,6 +5,7 @@ function WriteTable (number) {
 }
 
 function SieveOfEratosthenes(N) {
+	//Print All PrimeNumbers less than that of the number
     var arrayOfPrimeNumbers = [];
     for(var i = 0; i < parseInt(N); i++) {
         if(i < 2) {
