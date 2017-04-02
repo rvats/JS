@@ -31,3 +31,7 @@ function SieveOfEratosthenes(N) {
     return arrayOfPrimeNumbers;
 }
 
+function GetAllPrimeNumberLessThanNumber(N) {
+	//Print All PrimeNumbers less than that of the number
+	return SieveOfEratosthenes(N);
+}
